@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV верстка</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/itachi3.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutme" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-container container">
+        <section class="section profile">
+          <img src="img/kamui.png" alt="avatar" class="profile-image" />
+          <div class="profile-title">
+            <h1 class="profile-maintitle">Dmitry</h1>
+            <h3 class="profile-subtitle">Front-End Bot</h3>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item">Ukraine, Mykolaiv</li>
+            <li class="section-item">Discord: Capogu#4792</li>
+            <li class="section-item">
+              Github: <a href="https://github.com/Capogu">Capogu</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="aboutme">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-text">
+            Want to learn Front-End.Hope you can help me!
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML5</li>
+            <li class="section-item">CSS3</li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre"><code class="code">function burgerSwitch() {
+  burgerBtn.classList.toggle("collapsed");
+  nav.classList.toggle("collapsed");
+  navList.classList.toggle("collapsed");}
+burgerBtn.addEventListener("click", burgerSwitch);</code></pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <p class="section-text">
+            <a href="https://www.freecodecamp.org/" target="_blank"
+              >Freecodecamp - Responsive Web Design</a
+            >
+          </p>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <a href="https://capogu.github.io/rsschool-cv/" target="_blank"
+                >CV project</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section languages" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="section-list">
+            <li class="section-item">English</li>
+            <li class="section-item">Russian</li>
+            <li class="section-item">Ukrainian</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          © December 2022
+          <a
+            href="https://github.com/Capogu"
+            class="github link"
+            target="_blank"
+            >Capogu</a
+          >
+        </div>
+        <a href="https://rs.school/js/" class="rss" target="_blank"
+          ><img src="img/logo.png" width="120px" height="45px"
+        /></a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
